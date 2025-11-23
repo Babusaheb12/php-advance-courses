@@ -1,6 +1,4 @@
-#!/usr/bin/env php
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 /**
  * add.php
  * Simple addition utility.
@@ -10,7 +8,7 @@ declare(strict_types=1);
  *   ./add.php 2 3
  *
  * Web usage:
- *   http://localhost:8000/add.php?a=2&b=3
+ *   http://localhost/php-advance-courses/first/add.php?a=2&b=3
  */
 
 function cli_add(array $argv): int
@@ -57,5 +55,3 @@ if (!is_numeric($a) || !is_numeric($b)) {
 }
 
 echo ($a + $b) . PHP_EOL;
-
-?>
