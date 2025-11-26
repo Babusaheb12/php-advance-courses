@@ -1,6 +1,24 @@
 # php-advance-courses
 Advanced PHP course covering OOP, exceptions, PDO, security, REST APIs, MVC, Laravel basics, Composer, PHP 8 features, web services, and real-world project development including CRUD, authentication, admin panel, and deployment. Ideal for mastering backend PHP.
 
+## Topics Studied (Updated: 27 November 2025)
+
+### Basic PHP Concepts
+- **First/first.php** - Basic PHP fundamentals and setup
+- **First/add.php** - Simple arithmetic operations
+
+### Object-Oriented Programming (OOP)
+- **class_object/lesson_1.php** - Introduction to classes and objects
+- **class_object/lesson_2thisKeybord/this.php** - Understanding the `$this` keyword in object context
+
+### Constructors & Destructors
+- **lesson_2/const_ructor.php** - Constructor implementation and usage
+
+### Inheritance
+- **inheritance/single_inheritance.php** - Single inheritance: child class inheriting from parent class
+- **inheritance/Multilevel_inheritance.php** - Multilevel inheritance: chain of inheritance across multiple classes (A → B → C)
+- **inheritance/hierarchical_inheritance.php** - Hierarchical inheritance: multiple classes inheriting from a single parent class
+
 ## Running locally
 
 You can run the example page in this repo with your local XAMPP Apache server. Open in the browser or use curl:
