@@ -34,6 +34,8 @@ If you want CLI execution with a shebang (`#!/usr/bin/env php`) keep the shebang
 This repository includes a simple database configuration file at `Api/config.php` that creates a MySQL connection using the procedural `mysqli` API. Example content:
 
 ```php
+
+
 <?php
 // Api/config.php
 $conn = mysqli_connect("localhost", "root", "", "demo") or die("Connection Failed: " . mysqli_connect_error());
